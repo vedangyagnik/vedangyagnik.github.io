@@ -1,0 +1,297 @@
+body{
+    background-image: url("../images/galaxy.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+.full_height{
+    min-height: 83vh;
+}
+
+#div1 {
+    float:left;
+    width: 150px;
+    height: 100px;
+    margin-left: 10%;
+    position: relative;
+}
+
+#div2 {
+    float:left;
+    width: 150px;
+    height: 100px;
+    margin-left: 5%;
+    position: relative;
+}
+
+#div3 {
+    float:left;
+    width: 150px;
+    height: 100px;
+    margin-left: 5%;
+    position: relative;
+}
+
+#div4 {
+    float:left;
+    width: 150px;
+    height: 100px;
+    margin-left: 5%;
+    position: relative;
+}
+
+#div5 {
+    float:left;
+    width: 150px;
+    height: 100px;
+    margin-left: 5%;
+    position: relative;
+}
+
+.mathLabel {
+    position: absolute;
+    left: 56px;
+    top: 20px;
+}
+
+
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 600px;}
+}
+
+@keyframes cannonmove{
+    from {top: 450px;}
+    to {top: 0px;}
+}
+
+#main_section label, #rules_section label{
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 38px;
+    color: darkorange;
+    font-weight: bolder;
+    font-family: monospace;
+}
+
+#main_section div, #rules_section div{
+    text-align: center;
+}
+
+#main_section>div:last-child{
+    margin-top: 150px;
+}
+
+#rules_section div:last-child{
+    margin-top: 100px;
+}
+
+#rule_div_1{
+    background: grey;
+    color: black;
+    font-size: 24px;
+    opacity: 0.7;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 250px;
+    width: 70%!important;
+    margin-left: 15%;
+}
+
+.button_section{
+    font-size: 38px;
+    background: yellow;
+    border-radius: 10px;
+    border: 5px solid yellow;
+}
+
+.button_section:hover{
+    cursor: pointer;
+    background: green;
+}
+
+.hidden{
+    display: none;
+}
+
+.spaceship_1{
+    animation: mymove 28s infinite;
+    animation-timing-function: linear;
+}
+
+.spaceship_2{
+    animation: mymove 30s infinite;
+    animation-timing-function: linear;
+}
+
+.spaceship_3{
+    animation: mymove 38s infinite;
+    animation-timing-function: linear;
+}
+
+.spaceship_4{
+    animation: mymove 34s infinite;
+    animation-timing-function: linear;
+}
+
+.spaceship_5{
+    animation: mymove 23s infinite;
+    animation-timing-function: linear;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer>div#audio:hover{
+    background: grey;
+    cursor: pointer;
+}
+
+footer>div#audio{
+    text-align: center;
+    background: #ffc0c0;
+    height: 60px;
+    width: 65px;
+    border-radius: 50%;
+    font-size: 36px!important;
+}
+
+footer>div>i{
+    padding-top: 12px;
+}
+
+
+/*Input Style*/
+#player_info_div_1{
+    background: grey;
+    color: black;
+    font-size: 24px;
+    opacity: 0.7;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 250px;
+    width: 70%!important;
+    margin-left: 15%;
+}
+#player_info_section div:last-child{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#player_info_div_1>input[type=text], select {
+    width: 95%;
+    margin: 8px 0px;
+    padding: 12px;
+    margin-left: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#player_info_div_1>label{
+    margin-left: 10px;
+    font-weight: bold;
+}
+  
+#cannon_div{
+    width: 1050px;
+    height: 10px;
+    background-color: aqua;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    justify-items: center;
+}
+
+#cannon{
+    width: 75px;
+    height: 110px;
+    justify-self: center;
+    align-self: end; 
+}
+
+#cannon>img:last-child{
+    position: absolute;
+    top: 69%;
+}
+
+#cannon>img:first-child{
+    position: absolute;
+    top: 75%;
+}
+
+.laser_beam_fire{
+    animation: cannonmove 0.5s infinite;
+    animation-timing-function: linear;
+}
+
+#save_game_div{
+    display: flex;
+    align-items: flex-end;
+}
+#save_game_div button{
+    font-size: 18px;
+    background: yellow;
+    border-radius: 10px;
+    border: 5px solid yellow;
+}
+
+#save_game_div button:hover{
+    cursor: pointer;
+    background: green;
+}
+
+#hit_div, #miss_div{
+    display: flex;
+    align-items: flex-end;
+    padding: 0;
+    margin: 0;
+}
+
+#hit_div h1, #miss_div h1{
+    margin: 0;
+    padding: 0;
+    background: yellow;
+    border-radius: 5px;
+}
+
+#total_below_cannon{
+    position: absolute;
+    width: 20px;
+    color: black;
+    background: white;
+    margin: 0;
+    margin-left: 5px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 5px;
+}
+
+.popup{
+    margin: 0 auto;
+    animation-name: stretch;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: initial;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+  
+@keyframes stretch {
+    0% {
+        transform: scale(.3);
+    }
+    100% {
+        transform: scale(1.5);
+}
+}

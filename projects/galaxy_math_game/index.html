@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Galaxy Math Game</title>
+        <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/Font-Awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/timer.css">
+        <link rel="stylesheet" href="css/modal_popup.css">
+    </head>
+    <body>
+        <main>
+            <!--Main Section-->
+            <section id="main_section" class="full_height">
+                <label>Alien Invasion Math Game</label>
+                <div>
+                    <img src="images/spaceship.png" width="200px">
+                </div>
+                <div>
+                    <button type="button" id="next_to_player_info_section" class="button_section">PLAY GAME</button>
+                </div>
+            </section>
+            <!--Player Info Section-->
+            <section id="player_info_section" class="hidden full_height">
+                <label>Player Info</label>
+                <div id="player_info_div_1">
+                    <label for="player_name">Player Name</label>
+                    <input type="text" placeholder="Enter your name" name="player_name" id="player_name" value="Player Name">
+                    <label for="difficulty">Game Difficulty</label>
+                    <select id="difficulty" name="difficulty">
+                        <option value="Easy">Easy</option>
+                        <option value="Hard">Hard</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="button" id="next_to_rules_section" class="button_section">NEXT</button>
+                </div>
+            </section>
+            <!--Rules/Instruction Section-->
+            <section id="rules_section" class="hidden full_height">
+                <label>Game Rules/Instructions</label>
+                <div id="rule_div_1">
+                    Use Left and Right Arrow Keys to Move. Press Spacebar to Fire.
+                </div>
+                <div>
+                    <button type="button" id="next_to_game_section" class="button_section">NEXT</button>
+                </div>
+            </section>
+            <!--Game Section-->
+            <section id="game_section" class="hidden">
+                <div class="full_height">
+                    <div id="div1" class="ship spaceship_1">
+                        <img src="images/spaceship.png" width="150px">
+                        <div class="mathLabel"><label id="equation1">4 + 8</label></div>
+                    </div>
+                    <div id="div2" class="ship spaceship_2">
+                        <img src="images/spaceship.png" width="150px">
+                        <div class="mathLabel"><label id="equation2">4 + 8</label></div>
+                    </div>
+                    <div id="div3" class="ship spaceship_3">
+                        <img src="images/spaceship.png" width="150px">
+                        <div class="mathLabel"><label id="equation3">4 + 8</label></div>
+                    </div>
+                    <div id="div4" class="ship spaceship_4">
+                        <img src="images/spaceship.png" width="150px">
+                        <div class="mathLabel"><labe id="equation4">4 + 8</label></div>
+                    </div>
+                    <div id="div5" class="ship spaceship_5">
+                        <img src="images/spaceship.png" width="150px">
+                        <div class="mathLabel"><label id="equation5">4 + 8</label></div>
+                    </div>
+                </div>
+                <div id="cannon_div">
+                    <div id="cannon">
+                        <img src="images/laser_beam.png" width="40px" height="60px">
+                        <h1 id="total_below_cannon"><label>25</label></h1>
+                        <img src="images/cannon.png" width="70px" height="100px">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <!--Extra Audio-->
+            <div style="display: none;">
+                <audio muted autoplay class="laser_audio">
+                    <source src="audio/35684__jobro__laser7.wav" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <audio muted autoplay class="game_over_audio">
+                    <source src="audio/388040__sami-kullstrom__game-over.wav" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <!--Game Audio-->
+            <div id="audio">
+                <i class="fa fa-volume-off"></i>
+                <audio muted autoplay loop class="game_audio">
+                    <source src="audio/432171__last-point__space-adventure.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+              </audio>
+            </div>
+            <!--Save Game-->
+            <div id="save_game_div">
+                <button type="button" id="save_game" class="hidden">SAVE GAME</button>
+            </div>
+            <!--Hit-->
+            <div id="hit_div">
+                <h1 id="hit" class="hidden">HIT: <label>0</label></h1>
+            </div>
+            <!--Miss-->
+            <div id="miss_div">
+                <h1 id="miss" class="hidden">MISS: <label>0</label></h1>
+            </div>
+            <!--Timer-->
+            <div id="app"></div>
+        </footer>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>YOU WON!</h2>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button id="play_again">PLAY AGAIN</button>
+                </div>
+            </div>
+        </div>
+        <script src="js/app.js" type="text/javascript"></script>
+    </body>
+</html>
