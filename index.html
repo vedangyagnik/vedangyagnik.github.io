@@ -179,34 +179,34 @@
 								</li>
 		                    </ul>
 
-							<!-- <div class="about-desc-more text-left">
+							<div class="about-desc-more text-left">
 								<div class="row">
-									<div class="col-lg-6">
+									<div class="col-lg-7">
 										<div class="about-desc-info">
-											<b>Age : </b>
-											<span>24</span>
+											<b>Date of birth:</b>
+											<span>{{json.about_me?.dob}}</span>
 										</div>
 									</div>
-									<div class="col-lg-6">
-										<div class="about-desc-info">
-											<b>Skype : </b>
-											<a href=" tel:beingeorge">beingeorge</a>
-										</div>
-									</div>
-									<div class="col-lg-6">
+									<div class="col-lg-5">
 										<div class="about-desc-info">
 											<b>Phone : </b>
-											<a href="tel:0987654321">098-765-4321</a>
+											<a :href="'tel:'+json.contact_info?.phone">{{json.contact_info?.phone}}</a>
 										</div>
 									</div>
-									<div class="col-lg-6">
+									<div class="col-lg-7">
 										<div class="about-desc-info">
 											<b>Mail : </b>
-											<a href="mailto:yagnikvedang96@gmail.com">yagnikvedang96@gmail.com</a>
+											<a :href="'mailto:'+json.contact_info?.email">{{json.contact_info?.email}}</a>
+										</div>
+									</div>
+									<div class="col-lg-5">
+										<div class="about-desc-info">
+											<b>Adress : </b>
+											<a :href="json.contact_info?.address_map">{{json.contact_info?.address}}</a>
 										</div>
 									</div>
 								</div>
-							</div> -->
+							</div>
 						</div>
 					</div>
 				</div>

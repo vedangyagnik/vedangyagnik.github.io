@@ -4,6 +4,7 @@
   "about_me":{
     "intro_line_1":"I am a Full-Stack Web & Mobile Application Developer with Bachelor’s degree in Computer Engineering and post graduate certificate in Mobile Application Development & Strategy who loves to do research & development for new technologies and love to solve real world problems of customers.",
     "intro_line_2":"Alongside with my career, I am a nature lover person who loves to explore new places & meeting new people, hangout with friends, playing Table-Tennis & video games, doing swimming & photography. Also, I never care about winning or losing & just enjoy whatever I do 😉.",
+    "dob": "9th August, 1996",
     "counters":[
       {
         "count":"3",
@@ -253,21 +254,21 @@
   "achievements":[
     {
       "title":"Certificate of Appreciation",
-      "image":"assets/images/achieve1.jpg",
+      "image":"assets/images/achieve1.png",
       "link":"assets/Certificate_Of_Appriciation_Biztech.pdf",
       "issued_date":"December 2018",
       "issued_org":"BiztechCS"
     },
     {
       "title":"Basic Problem Solving Skill",
-      "image":"assets/images/achieve2.jpg",
+      "image":"assets/images/achieve2.png",
       "link":"https://www.hackerrank.com/certificates/9ef60e1d329e",
       "issued_date":"July 2020",
       "issued_org":"HackerRank"
     },
     {
       "title":"Basic JavaScript Skill",
-      "image":"assets/images/achieve3.jpg",
+      "image":"assets/images/achieve3.png",
       "link":"https://www.hackerrank.com/certificates/d7431cf9d23e",
       "issued_date":"July 2020",
       "issued_org":"HackerRank"
