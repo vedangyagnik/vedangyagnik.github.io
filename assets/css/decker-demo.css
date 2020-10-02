@@ -1,0 +1,325 @@
+
+/*-----------------
+* [Master Stylesheet]
+*
+* Theme    : Mason - Creative Portfolio
+* Version  : 1.0
+* Author   : beingeorge
+* Support  : hello@beingeorge.com
+* 
+------------------*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+
+
+/* ---------------------------------------------- 
+*   Preloader
+/* ---------------------------------------------- */
+
+body {
+    overflow-x: hidden;
+}
+
+
+.preloader {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999;
+}
+
+.preloader.loaded {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+
+.key-feature--content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.key-feature--content li {
+    width: 25%;
+}
+
+.key-item {
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    background: #fff;
+    display: flex;
+    border-radius: 3px;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, .2);
+    align-items: center;
+    box-shadow: 0 9px 33px 0 rgba(0, 0, 0, 0.2);
+}
+
+.key-feature--content li h4 {
+    font-size: 20px;
+    margin: 30px auto 50px;
+    text-align: center;
+    font-weight: 300;
+    max-width: 150px;
+    color: #222;
+    font-size: 16px;
+}
+
+.key-item img {
+    max-width: 60px;
+}
+
+.page-header {
+    background: #14232d;
+}
+
+.site-logo {
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #ddd;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+.header-content {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.header-content h1 {
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header-content p {
+    color: #fff;
+    max-width: 600px;
+    font-size: 16px;
+    opacity: 0.6;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.button-wrap a {
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.5s;
+    letter-spacing: 2px;
+    color: #fff;
+    box-shadow: none;
+    text-transform: uppercase;
+    outline: none !important;
+    text-align: center;
+    background: #62abf8;
+    border-radius: 2px;
+    box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 8px 30px;
+    font-size: 12px;
+    font-weight: 400;
+    transition: all 0.5s;
+    letter-spacing: 2px;
+    color: #fff;
+    box-shadow: none;
+    text-transform: capitalize;
+    outline: none !important;
+    background-color: #8444df;
+    border-radius: 0px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+.button-wrap a i {
+    margin-left: 10px;
+}
+
+.button-wrap a:hover {
+    text-decoration: none;
+}
+
+.page-content--head h2 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.page-content--head p {
+    font-size: 20px;
+    margin-top: 25px;
+    opacity: 0.5;
+    color: #fff;
+}
+
+.page-content--head {
+    margin-bottom: 80px;
+}
+
+
+.hero-shapes {
+    position: absolute !important;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+img.shape1 {
+    position: absolute !important;
+    top: 10% !important;
+    left: 5% !important;
+}
+
+img.shape2 {
+    position: absolute !important;
+    top: 12% !important;
+    left: 35% !important;
+}
+
+img.shape3 {
+    position: absolute !important;
+    top: 85% !important;
+    left: 25% !important;
+}
+
+img.shape4 {
+    position: absolute !important;
+    top: 80% !important;
+    left: 90% !important;
+}
+
+img.shape5 {
+    position: absolute !important;
+    top: 60% !important;
+    left: 7% !important;
+}
+
+img.shape6 {
+    position: absolute !important;
+    top: 50% !important;
+    left: 70% !important;
+}
+
+img.shape7 {
+    position: absolute !important;
+    top: 7% !important;
+    left: 90% !important;
+}
+
+img.shape8 {
+    position: absolute !important;
+    top: 50% !important;
+    left: 30% !important;
+}
+
+img.shape9 {
+    position: absolute !important;
+    top: 17% !important;
+    left: 60% !important;
+}
+
+.padding-medium {
+    padding: 100px 0;
+}
+
+.key-features {
+    background: #f1ebeb;
+}
+
+.page-demo img {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, .2);
+}
+
+.page-demo a:hover {
+    box-shadow: 0 99px 93px 0 rgba(0, 0, 0, 0.13);
+    transform: scale(1.05);
+}
+
+.page-demo a.dark-theme:hover {
+    box-shadow: 0 99px 93px 0 rgba(0, 0, 0, 0.13);
+    transform: scale(1.05);
+}
+
+.page-demo a {
+    transition: 0.3s;
+    display: block;
+    background: rgb(37, 42, 48);
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+.page-content {
+    position: relative;
+    transition: 0.5s;
+    background: #14232d;
+    overflow: hidden;
+}
+
+.page-content--particle1 {
+    position: absolute;
+    max-height: 500px;
+    max-width: 500px;
+    top: 10%;
+}
+
+.page-footer {
+    background: #14252e;
+    padding: 50px;
+}
+
+.key-features .page-content--head h2, .key-features .page-content--head p {
+    color: #222;
+}
+
+/* ---------------------------------------------- 
+* 15. All Media Queries
+/* ---------------------------------------------- */
+
+@media (max-width: 991px) {
+    .key-feature--content li {
+        width: 33.3%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .hero-shapes img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .key-feature--content li {
+        width: 50%;
+    }
+
+    .key-item {
+    width: 120px;
+    height: 120px;
+}
+}

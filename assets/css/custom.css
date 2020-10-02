@@ -1,0 +1,15 @@
+.hero-img{
+	height: 250px;
+	width: 250px;
+}
+.typed{
+	color: orangered;
+}
+.skill-row>*{
+	padding: 10px;
+}
+.heart_filled{
+	font-size: 24px;
+    vertical-align: middle;
+    color: #8444df;
+}

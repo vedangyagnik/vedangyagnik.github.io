@@ -1,0 +1,276 @@
+{
+  "name": "Vedang Yagnik",
+  "titles": "A Web Developer.,A Mobile Application Developer.,An API Developer., A Freelancer., An Engineer.",
+  "about_me":{
+    "intro_line_1":"I am a Full-Stack Web & Mobile Application Developer with Bachelor’s degree in Computer Engineering and post graduate certificate in Mobile Application Development & Strategy who loves to do research & development for new technologies and love to solve real world problems of customers.",
+    "intro_line_2":"Alongside with my career, I am a nature lover person who loves to explore new places & meeting new people, hangout with friends, playing Table-Tennis & video games, doing swimming & photography. Also, I never care about winning or losing & just enjoy whatever I do 😉.",
+    "counters":[
+      {
+        "count":"3",
+        "string":"+",
+        "title":"YEARS OF EXPERTISE"
+      },
+      {
+        "count":"5",
+        "string":"",
+        "title":"Testimonials"
+      },
+      {
+        "count":"12",
+        "string":"+",
+        "title":"PROJECTS"
+      },
+      {
+        "count":"3",
+        "string":"",
+        "title":"CERTIFICATES"
+      }
+    ]
+  },
+  "introduction":"",
+  "contact_info" : {
+    "phone" : "(+1)647-540-8326",
+    "email" : "yagnikvedang96@gmail.com",
+    "address" : "Toronto, ON, CA",
+    "address_map" : "https://goo.gl/maps/W8fg4tVqCaDJCPLi9"
+  },
+  "proffessional_account": [
+    {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/vedangyagnik/",
+      "icon": "lni lni-linkedin"
+    },
+    {
+      "name": "GitHub",
+      "link": "https://github.com/vedangyagnik/",
+      "icon": "lni lni-github-original"
+    },
+    {
+      "name": "StackOverFlow",
+      "link": "https://stackoverflow.com/users/13348589/vedang-yagnik",
+      "icon": "lni lni-stackoverflow"
+    }
+  ],
+  "experience":[
+    {
+      "company_name":"NewslyMeApp",
+      "company_url":"https://www.newsly.me/",
+      "position":"Full-Stack Developer - CO-OP",
+      "timeline":"Sep 2020 - Present",
+      "description":"React Native | Python | Flask | AWS | FireBase"
+    },
+    {
+      "company_name":"BiztechCs",
+      "company_url":"https://www.biztechcs.com/",
+      "position":"Sr. Software Engineer",
+      "timeline":"Jul 2019 - Nov 2019",
+      "description":"PHP | REST API | CakePHP | VIMEO | AWS S3 | JWT | JSON | Web Application Security"
+    },
+    {
+      "company_name":"BiztechCs",
+      "company_url":"https://www.biztechcs.com/",
+      "position":"Software Engineer",
+      "timeline":"Jul 2017 - Jun 2019",
+      "description":"HTML | JavaScript | jQuery | AJAX | PHP | CakePHP | GIT | JIRA | Linux | InVision | BitBucket"
+    },
+    {
+      "company_name":"BiztechCs",
+      "company_url":"https://www.biztechcs.com/",
+      "position":"Jr. Software Engineer - Intern",
+      "timeline":"Jan 2017 - Jun 2017",
+      "description":"HTML | CSS | BootStrap | JavaScript | jQuery | AJAX | PHP | Linux | LAMP | GIT"
+    }
+  ],
+  "education":[
+    {
+      "institute_name":"George Brown College",
+      "degree":"Post-Graduate Certificate",
+      "major":"Mobile Application Development & Strategy",
+      "timeline":"Jan 2020 - Dec 2020",
+      "result":"3.35 GPA",
+      "location":"Canada"
+    },
+    {
+      "institute_name":"Gujarat Technological University",
+      "degree":"Bachelor's Degree",
+      "major":"Computer Engineering",
+      "timeline":"Jul 2013 - May 2017",
+      "result":"3.7 GPA",
+      "location":"India"
+    },
+    {
+      "institute_name":"Gujarat Education Board",
+      "degree":"Higher Secondary School Certificate",
+      "major":"",
+      "timeline":"2011 - 2013",
+      "result":"76%",
+      "location":"India"
+    },
+    {
+      "institute_name":"Gujarat Education Board",
+      "degree":"Secondary School Certificate",
+      "major":"",
+      "timeline":"2010 - 2011",
+      "result":"87%",
+      "location":"India"
+    }
+  ],
+  "skills":[
+    {
+      "icon": "devicon-html5-plain",
+      "title": "HTML"
+    },
+    {
+      "icon": "devicon-css3-plain",
+      "title": "CSS"
+    },
+    {
+      "icon": "devicon-javascript-plain",
+      "title": "JavaScript"
+    },
+    {
+      "icon": "devicon-jquery-plain",
+      "title": "jQuery"
+    },
+    {
+      "icon": "devicon-php-plain",
+      "title": "PHP"
+    },
+    {
+      "icon": "devicon-cakephp-plain",
+      "title": "CakePHP"
+    },
+    {
+      "icon": "devicon-laravel-plain",
+      "title": "Laravel"
+    },
+    {
+      "icon": "devicon-react-original",
+      "title": "React"
+    },
+    {
+      "icon": "devicon-vuejs-plain",
+      "title": "Vue"
+    },
+    {
+      "icon": "devicon-bootstrap-plain",
+      "title": "BootStrap"
+    },
+    {
+      "icon": "devicon-java-plain",
+      "title": "Java"
+    },
+    {
+      "icon": "devicon-android-plain",
+      "title": "Android"
+    },
+    {
+      "icon": "devicon-swift-plain",
+      "title": "Swift"
+    },
+    {
+      "icon": "devicon-apple-original",
+      "title": "IOS"
+    },
+    {
+      "icon": "devicon-mysql-plain",
+      "title": "MySQL"
+    },
+    {
+      "icon": "devicon-mongodb-plain",
+      "title": "MongoDB"
+    }
+  ],
+  "services":[
+    {
+      "name" :"Web Development",
+      "description":"A complete full-stack web development solution for Single Page Application, Progressive Web Applications and Web Sites.",
+      "icon":"lni lni-laptop"
+    },
+    {
+      "name" :"Mobile Application Development",
+      "description":"A complete mobile solution with Native Android & IOS development with uploading application to play store & app store.",
+      "icon":"lni lni-mobile"
+    },
+    {
+      "name" :"Cross-Platform Development",
+      "description":"A complete web & mobile solution with low cost resources and development with react-native or any other cross-platform services.",
+      "icon":"lni lni-laptop-phone"
+    },
+    {
+      "name" :"Back-End Development",
+      "description":"A strong back-end solution with PHP and other popular languages such as Python & Node following security & coding standard.",
+      "icon":"lni lni-code"
+    },
+    {
+      "name" :"Web Application Security",
+      "description":"A complete solution using security standards of frameworks & security testing software such as Burp Suite & penetration testing.",
+      "icon":"lni lni-protection"
+    },
+    {
+      "name" :"Quality Assurance",
+      "description":"A complete solution for bug free application with A/B testing & using softwares such as SonarQube & other custom testing.",
+      "icon":"lni lni-bug"
+    }
+  ],
+  "testimonial": [
+    {
+      "author_name":"Dhaval Darji",
+      "position":"Engineering Manager & Head of Innovation Lab @BiztechCS",
+      "link":"https://www.linkedin.com/in/dhavaldarji304/",
+      "image":"https://media-exp1.licdn.com/dms/image/C5103AQHGJeg2muijqg/profile-displayphoto-shrink_400_400/0?e=1603324800&v=beta&t=gc2AQSBqkC9217TpDfIVW9qdGGucsE9kKDBcrzeYtlA",
+      "message":"Vedang is hard working and problem solver. He is always eager to learn and improve himself. Enjoyed working with him on the same team👍"
+    },
+    {
+      "author_name":"Wasim Bakali",
+      "position":"Sr. Software Engineer @BiztechCS",
+      "link":"https://www.linkedin.com/in/wasim-bakali-90852a88/",
+      "image":"https://media-exp1.licdn.com/dms/image/C5103AQFRxFKHhZDNuA/profile-displayphoto-shrink_400_400/0?e=1603324800&v=beta&t=VttVZNe6y8W4jVc2H8pxbhH8HeoTQfW-_43oWoswnqs",
+      "message":"I had pleasure of working with vedang for 1.5 year and yeah, he is hard working guy and game changer."
+    },
+    {
+      "author_name":"Priyank Solanki",
+      "position":"Software Engineer @BiztechCS",
+      "link":"https://www.linkedin.com/in/priyank-solanki-320578102/",
+      "image":"https://media-exp1.licdn.com/dms/image/C5103AQFuQ-kH4Oo-QQ/profile-displayphoto-shrink_400_400/0?e=1603324800&v=beta&t=RKbeEx-dchN9qANFF5i8FhsZV0lwGk6npCPTAibuQ28",
+      "message":"I can say that you are good in your profession also good as mentor, Outside the company you are great friend. Also one more thing is that you are always encouraging person and yeah funniest person for any kind of situation."
+    },
+    {
+      "author_name":"Bharat Nagdev",
+      "position":"Senior Software Engineer @BiztechCS",
+      "link":"https://www.linkedin.com/in/bharat-nagdev-%F0%9F%A4%93-b71455128/",
+      "image":"https://media-exp1.licdn.com/dms/image/C5103AQHvemEIqMEP5g/profile-displayphoto-shrink_400_400/0?e=1603324800&v=beta&t=pvu4buRKhuyJsAKDVHDZsBVQb2LYweqE2sLt2fh8gpc",
+      "message":"The most joyful working skills can be learned from him. He is out of the box thinker. Highly recommended"
+    },
+    {
+      "author_name":"Kumar Sahitya",
+      "position":"Senior Software Engineer @BiztechCS",
+      "link":"https://www.linkedin.com/in/kumar-sahitya-58a45a153/",
+      "image":"https://media-exp1.licdn.com/dms/image/C5603AQGyb6R5MzyPoA/profile-displayphoto-shrink_400_400/0?e=1603324800&v=beta&t=5UvizNZMCTkpQVw6rMJZtCejYHHPX9tuq42V2rqzfxI",
+      "message":"I had the pleasure of working with Vedang. collaborating on same project. He knows how to enjoy your work rather than only doing and complete it. Highly recommended."
+    }
+  ],
+  "achievements":[
+    {
+      "title":"Certificate of Appreciation",
+      "image":"assets/images/achieve1.jpg",
+      "link":"https://vedangyagnik.github.io/Certificate_Of_Appriciation_Biztech.pdf",
+      "issued_date":"December 2018",
+      "issued_org":"BiztechCS"
+    },
+    {
+      "title":"Basic Problem Solving Skill",
+      "image":"assets/images/achieve2.jpg",
+      "link":"https://www.hackerrank.com/certificates/9ef60e1d329e",
+      "issued_date":"July 2020",
+      "issued_org":"HackerRank"
+    },
+    {
+      "title":"Basic JavaScript Skill",
+      "image":"assets/images/achieve3.jpg",
+      "link":"https://www.hackerrank.com/certificates/d7431cf9d23e",
+      "issued_date":"July 2020",
+      "issued_org":"HackerRank"
+    }
+  ]
+}
