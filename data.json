@@ -13,7 +13,7 @@
       },
       {
         "count":"5",
-        "string":"",
+        "string":"+",
         "title":"Testimonials"
       },
       {
@@ -56,8 +56,8 @@
     {
       "company_name":"NewslyMeApp",
       "company_url":"https://www.newsly.me/",
-      "position":"Full-Stack Developer - CO-OP",
-      "timeline":"Sep 2020 - Present",
+      "position":"Full-Stack Developer - Intern",
+      "timeline":"Sep 2020 - Dec 2020",
       "description":"React Native | Python | Flask | AWS | FireBase"
     },
     {
@@ -83,6 +83,14 @@
     }
   ],
   "education":[
+    {
+      "institute_name":"Lakehead University",
+      "degree":"Master of Science",
+      "major":"Electrical & Computer Engineering",
+      "timeline":"Jan 2021 - Present",
+      "result":"N/A",
+      "location":"Canada"
+    },
     {
       "institute_name":"George Brown College",
       "degree":"Post-Graduate Certificate",
@@ -180,6 +188,14 @@
     {
       "icon": "devicon-mongodb-plain",
       "title": "MongoDB"
+    },
+    {
+      "icon": "devicon-python-plain",
+      "title": "Python"
+    },
+    {
+      "icon": "devicon-amazonwebservices-original",
+      "title": "AWS"
     }
   ],
   "services":[
@@ -227,7 +243,7 @@
       "position":"Full Stack Mobile Developer Intern @NewslyMeApp",
       "link":"https://www.linkedin.com/in/dishant9397/",
       "image":"assets/images/testimonial/dishant_patel.jpeg",
-      "message":"A smart and diligent individual who is always read to face and solve any unknown challenges. Vedang and I have worked on copious projects together and I always enjoyed working with a person, a hard-worker, who tries to step forward, which elevates his skills, and help every other person possible. He has profound knowledge of almost all programming languages with relevant code reduction techniques. As a colleague, I would recommend him as an employee who has passion for code and enjoys applying technical skills to solve business problems."
+      "message":"A smart and diligent individual who is always ready to face and solve any unknown challenges. Vedang and I have worked on copious projects together and always enjoyed working with a person, a hard-worker, who tries to step forward and help every other person possible. He has profound knowledge of almost all programming languages with relevant code reduction techniques. As a colleague, I would highly recommend him as an employee."
     },
     {
       "author_name":"Wasim Bakali",
@@ -241,7 +257,7 @@
       "position":"Software Engineer @BiztechCS",
       "link":"https://www.linkedin.com/in/priyank-solanki-320578102/",
       "image":"assets/images/testimonial/priyank_solanki.jpeg",
-      "message":"I can say that you are good in your profession also good as mentor, Outside the company you are great friend. Also one more thing is that you are always encouraging person and yeah funniest person for any kind of situation."
+      "message":"He is good in his profession also good as mentor, Outside the company he is great friend. Also one more thing is that he is always encouraging person and yeah funniest person for any kind of situation."
     },
     {
       "author_name":"Bharat Nagdev",
