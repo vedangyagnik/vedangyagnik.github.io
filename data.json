@@ -54,6 +54,13 @@
   ],
   "experience":[
     {
+      "company_name":"SPARC MARKETING COMMUNICATION",
+      "company_url":"https://sparcomm.ca/",
+      "position":"Web Developer",
+      "timeline":"Feb 2021 - Present",
+      "description":"HTML | CSS | PHP | WordPress | Domain & Web Hosting | cPanel"
+    },
+    {
       "company_name":"NewslyMeApp",
       "company_url":"https://www.newsly.me/",
       "position":"Full-Stack Developer - Intern",
@@ -276,11 +283,11 @@
   ],
   "achievements":[
     {
-      "title":"Certificate of Appreciation",
-      "image":"assets/images/achieve1.png",
-      "link":"assets/Certificate_Of_Appriciation_Biztech.pdf",
-      "issued_date":"December 2018",
-      "issued_org":"BiztechCS"
+      "title":"Mobile Application Development",
+      "image":"assets/images/achieve4.png",
+      "link":"assets/George_Brown_College_Certificate.pdf",
+      "issued_date":"December 2020",
+      "issued_org":"George Brown College"
     },
     {
       "title":"Basic Problem Solving Skill",
@@ -295,6 +302,13 @@
       "link":"https://www.hackerrank.com/certificates/d7431cf9d23e",
       "issued_date":"July 2020",
       "issued_org":"HackerRank"
+    },
+    {
+      "title":"Certificate of Appreciation",
+      "image":"assets/images/achieve1.png",
+      "link":"assets/Certificate_Of_Appriciation_Biztech.pdf",
+      "issued_date":"December 2018",
+      "issued_org":"BiztechCS"
     }
   ]
 }
