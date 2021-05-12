@@ -1,6 +1,6 @@
 {
   "name": "Vedang Yagnik",
-  "titles": "A Web Developer.,A Mobile Application Developer.,An API Developer., A Freelancer., An Engineer.",
+  "titles": "A Software Engineer.,A Web Developer.,A Mobile Application Developer.,An API Developer., A Freelancer., An Engineer.",
   "about_me":{
     "intro_line_1":"I am a Full-Stack Web & Mobile Application Developer with Bachelor’s degree in Computer Engineering and post graduate certificate in Mobile Application Development & Strategy who loves to do research & development for new technologies and love to solve real world problems of customers.",
     "intro_line_2":"Alongside with my career, I am a nature lover person who loves to explore new places & meeting new people, hangout with friends, playing Table-Tennis & video games, doing swimming & photography. Also, I never care about winning or losing & just enjoy whatever I do 😉.",
@@ -50,6 +50,16 @@
       "name": "StackOverFlow",
       "link": "https://stackoverflow.com/users/13348589/vedang-yagnik",
       "icon": "lni lni-stackoverflow"
+    },
+    {
+      "name": "Instagram",
+      "link": "https://www.instagram.com/vedang_n_y/",
+      "icon": "lni lni-instagram"
+    },
+    {
+      "name": "Facebook",
+      "link": "https://www.facebook.com/yagnik.vedang/",
+      "icon": "lni lni-facebook"
     }
   ],
   "experience":[
@@ -61,9 +71,16 @@
       "description":"HTML | CSS | PHP | WordPress | Domain & Web Hosting | cPanel"
     },
     {
+      "company_name":"TwinsMusic Enterprises",
+      "company_url":"https://www.twinsmusicny.com/",
+      "position":"Software Engineering Team Lead - Internship",
+      "timeline":"Mar 2021 - Apr 2021",
+      "description":"React | Node | Express | MongoDb Atlas | JWT | GIT | cPanel | Heroku"
+    },
+    {
       "company_name":"NewslyMeApp",
       "company_url":"https://www.newsly.me/",
-      "position":"Full-Stack Developer - Intern",
+      "position":"Full-Stack Developer - Internship",
       "timeline":"Sep 2020 - Dec 2020",
       "description":"React Native | Python | Flask | AWS | FireBase"
     },
@@ -161,6 +178,10 @@
       "title": "Laravel"
     },
     {
+      "icon": "devicon-wordpress-plain",
+      "title": "WordPress"
+    },
+    {
       "icon": "devicon-react-original",
       "title": "React"
     },
@@ -203,6 +224,14 @@
     {
       "icon": "devicon-amazonwebservices-original",
       "title": "AWS"
+    },
+    {
+      "icon": "devicon-nodejs-plain",
+      "title": "NodeJS"
+    },
+    {
+      "icon": "devicon-express-original",
+      "title": "Express"
     }
   ],
   "services":[
@@ -246,39 +275,53 @@
       "message":"Vedang is hard working and problem solver. He is always eager to learn and improve himself. Enjoyed working with him on the same team👍"
     },
     {
+      "author_name":"Akash Prajapati",
+      "position":"Senior Software Engineer",
+      "link":"https://www.linkedin.com/in/akash-prajapati-806b63105/",
+      "image":"assets/images/testimonial/aakash_prajapati.jpeg",
+      "message":"I have managed many people but Vedang is unique one to work. His work ethics are pristine, and he is easily adjustable to a given situation. His ability to go out of his way to help others has made him stand out. Thanks a lot, man! You made the transition smooth and more comfortable. Really great work👍👍👍👍👍"
+    },
+    {
       "author_name":"Dishant Patel",
-      "position":"Full Stack Mobile Developer Intern @NewslyMeApp",
+      "position":"Software Development Engineer",
       "link":"https://www.linkedin.com/in/dishant9397/",
       "image":"assets/images/testimonial/dishant_patel.jpeg",
       "message":"A smart and diligent individual who is always ready to face and solve any unknown challenges. Vedang and I have worked on copious projects together and always enjoyed working with a person, a hard-worker, who tries to step forward and help every other person possible. He has profound knowledge of almost all programming languages with relevant code reduction techniques. As a colleague, I would highly recommend him as an employee."
     },
     {
       "author_name":"Wasim Bakali",
-      "position":"Sr. Software Engineer @BiztechCS",
+      "position":"Senior Software Engineer",
       "link":"https://www.linkedin.com/in/wasim-bakali-90852a88/",
       "image":"assets/images/testimonial/wasim_bakali.jpeg",
       "message":"I had pleasure of working with vedang for 1.5 year and yeah, he is hard working guy and game changer."
     },
     {
       "author_name":"Priyank Solanki",
-      "position":"Software Engineer @BiztechCS",
+      "position":"Software Engineer",
       "link":"https://www.linkedin.com/in/priyank-solanki-320578102/",
       "image":"assets/images/testimonial/priyank_solanki.jpeg",
       "message":"He is good in his profession also good as mentor, Outside the company he is great friend. Also one more thing is that he is always encouraging person and yeah funniest person for any kind of situation."
     },
     {
       "author_name":"Bharat Nagdev",
-      "position":"Senior Software Engineer @BiztechCS",
+      "position":"Senior Software Engineer",
       "link":"https://www.linkedin.com/in/bharat-nagdev-%F0%9F%A4%93-b71455128/",
       "image":"assets/images/testimonial/bharat_nagdev.jpeg",
       "message":"The most joyful working skills can be learned from him. He is out of the box thinker. Highly recommended"
     },
     {
       "author_name":"Kumar Sahitya",
-      "position":"Senior Software Engineer @BiztechCS",
+      "position":"Senior Software Engineer",
       "link":"https://www.linkedin.com/in/kumar-sahitya-58a45a153/",
       "image":"assets/images/testimonial/kumar_sahitya.jpeg",
       "message":"I had the pleasure of working with Vedang collaborating on same project. He knows how to enjoy your work rather than only doing and complete it. Highly recommended."
+    },
+    {
+      "author_name":"Varun patel",
+      "position":"Mobile Application Developer",
+      "link":"https://www.linkedin.com/in/varun-patel-canada/",
+      "image":"assets/images/testimonial/varun_patel.jpeg",
+      "message":"He is a self-learner & passionate individual for mobile development. I always enjoy & learn new things from him while working on the projects. He has good grasping power for working on new technologies. I would definitely go to him for any kind of mobile development solution."
     }
   ],
   "achievements":[
