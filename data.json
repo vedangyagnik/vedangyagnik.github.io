@@ -12,18 +12,18 @@
         "title":"YEARS OF EXPERTISE"
       },
       {
-        "count":"5",
+        "count":"7",
         "string":"+",
         "title":"Testimonials"
       },
       {
-        "count":"12",
+        "count":"20",
         "string":"+",
         "title":"PROJECTS"
       },
       {
         "count":"3",
-        "string":"",
+        "string":"+",
         "title":"CERTIFICATES"
       }
     ]
@@ -68,7 +68,7 @@
       "company_url":"https://sparcomm.ca/",
       "position":"Web Developer",
       "timeline":"Feb 2021 - Present",
-      "description":"HTML | CSS | PHP | WordPress | Domain & Web Hosting | cPanel"
+      "description":"HTML | CSS | PHP | WordPress | Wix | Domain & Web Hosting | cPanel"
     },
     {
       "company_name":"TwinsMusic Enterprises",
