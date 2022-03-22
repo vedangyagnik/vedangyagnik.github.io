@@ -7,7 +7,7 @@
     "dob": "9th August, 1996",
     "counters":[
       {
-        "count":"3",
+        "count":"4",
         "string":"+",
         "title":"YEARS OF EXPERTISE"
       },
@@ -64,59 +64,45 @@
   ],
   "experience":[
     {
-      "company_name":"SPARC MARKETING COMMUNICATION",
-      "company_url":"https://sparcomm.ca/",
-      "position":"Web Developer",
-      "timeline":"Feb 2021 - Present",
-      "description":"HTML | CSS | PHP | WordPress | Wix | Domain & Web Hosting | cPanel"
+      "company_name":"CityCoach (Montreal, QC, Canada) - Remote",
+      "company_url":"https://www.citycoach.ca/",
+      "position":"Software Engineer - (CTO)",
+      "timeline":"Sep 2021 - Dec 2021",
+      "description":"React | JavaScript(ES6+) | Sharetribe | Stripe | JIRA | Heorku"
     },
     {
-      "company_name":"TwinsMusic Enterprises",
+      "company_name":"TwinsMusic Enterprises (NY, United States) - Remote",
       "company_url":"https://www.twinsmusicny.com/",
-      "position":"Software Engineering Team Lead - Internship",
+      "position":"Software Engineer - Team Lead",
       "timeline":"Mar 2021 - Apr 2021",
-      "description":"React | Node | Express | MongoDb Atlas | JWT | GIT | cPanel | Heroku"
+      "description":"React | JavaScript(ES6+) | Node | Express | MongoDb Atlas | JWT | GIT | cPanel | Heroku"
     },
     {
-      "company_name":"NewslyMeApp",
+      "company_name":"NewslyMeApp (Vancouver, BC, Canada) - Remote",
       "company_url":"https://www.newsly.me/",
-      "position":"Full-Stack Developer - Internship",
+      "position":"Software Engineer",
       "timeline":"Sep 2020 - Dec 2020",
-      "description":"React Native | Python | Flask | AWS | FireBase"
+      "description":"React Native | JavaScript(ES6+) | Python | Flask | AWS | FireBase"
     },
     {
-      "company_name":"BiztechCs",
-      "company_url":"https://www.biztechcs.com/",
-      "position":"Sr. Software Engineer",
-      "timeline":"Jul 2019 - Nov 2019",
-      "description":"PHP | REST API | CakePHP | VIMEO | AWS S3 | JWT | JSON | Web Application Security"
-    },
-    {
-      "company_name":"BiztechCs",
+      "company_name":"BiztechCS (India)",
       "company_url":"https://www.biztechcs.com/",
       "position":"Software Engineer",
-      "timeline":"Jul 2017 - Jun 2019",
-      "description":"HTML | JavaScript | jQuery | AJAX | PHP | CakePHP | GIT | JIRA | Linux | InVision | BitBucket"
-    },
-    {
-      "company_name":"BiztechCs",
-      "company_url":"https://www.biztechcs.com/",
-      "position":"Jr. Software Engineer - Intern",
-      "timeline":"Jan 2017 - Jun 2017",
-      "description":"HTML | CSS | BootStrap | JavaScript | jQuery | AJAX | PHP | Linux | LAMP | GIT"
+      "timeline":"Jan 2017 - Nov 2019",
+      "description":"JavaScript(ES6+) | PHP | AWS | JIRA | Linux | LAMP | GIT | BitBucket"
     }
   ],
   "education":[
     {
-      "institute_name":"Lakehead University",
+      "institute_name":"Lakehead University (Thunder Bay, ON, Canada)",
       "degree":"Master of Science",
       "major":"Electrical & Computer Engineering",
-      "timeline":"Jan 2021 - Present",
+      "timeline":"Jan 2021 - Apr 2022",
       "result":"N/A",
       "location":"Canada"
     },
     {
-      "institute_name":"George Brown College",
+      "institute_name":"George Brown College (Toronto, ON, Canada)",
       "degree":"Post-Graduate Certificate",
       "major":"Mobile Application Development & Strategy",
       "timeline":"Jan 2020 - Dec 2020",
@@ -124,7 +110,7 @@
       "location":"Canada"
     },
     {
-      "institute_name":"Gujarat Technological University",
+      "institute_name":"Gujarat Technological University (India)",
       "degree":"Bachelor's Degree",
       "major":"Computer Engineering",
       "timeline":"Jul 2013 - May 2017",
@@ -132,7 +118,7 @@
       "location":"India"
     },
     {
-      "institute_name":"Gujarat Education Board",
+      "institute_name":"Gujarat Education Board (India)",
       "degree":"Higher Secondary School Certificate",
       "major":"",
       "timeline":"2011 - 2013",
@@ -140,7 +126,7 @@
       "location":"India"
     },
     {
-      "institute_name":"Gujarat Education Board",
+      "institute_name":"Gujarat Education Board (India)",
       "degree":"Secondary School Certificate",
       "major":"",
       "timeline":"2010 - 2011",
