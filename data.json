@@ -64,30 +64,37 @@
   ],
   "experience":[
     {
+      "company_name":"Telus (Toronto, ON, Canada) - Remote",
+      "company_url":"https://www.telus.com/en",
+      "position":"Software Engineer II - (Full-Stack)",
+      "timeline":"Jun 2022 - Jul 2023",
+      "description":"JavaScript(ES6+) | React | NodeJS | Express | OpenShift | GitHub | Google Cloud Platform | JIRA | Slack"
+    },
+    {
       "company_name":"CityCoach (Montreal, QC, Canada) - Remote",
       "company_url":"https://www.citycoach.ca/",
-      "position":"Software Engineer - (CTO)",
+      "position":"Software Engineer - (Full-Stack)",
       "timeline":"Sep 2021 - Dec 2021",
       "description":"React | JavaScript(ES6+) | Sharetribe | Stripe | JIRA | Heorku"
     },
     {
       "company_name":"TwinsMusic Enterprises (NY, United States) - Remote",
       "company_url":"https://www.twinsmusicny.com/",
-      "position":"Software Engineer - Team Lead",
+      "position":"Software Engineer - (Full-Stack)",
       "timeline":"Mar 2021 - Apr 2021",
       "description":"React | JavaScript(ES6+) | Node | Express | MongoDb Atlas | JWT | GIT | cPanel | Heroku"
     },
     {
       "company_name":"NewslyMeApp (Vancouver, BC, Canada) - Remote",
       "company_url":"https://www.newsly.me/",
-      "position":"Software Engineer",
+      "position":"Software Engineer - (Full-Stack)",
       "timeline":"Sep 2020 - Dec 2020",
       "description":"React Native | JavaScript(ES6+) | Python | Flask | AWS | FireBase"
     },
     {
       "company_name":"BiztechCS (India)",
       "company_url":"https://www.biztechcs.com/",
-      "position":"Software Engineer",
+      "position":"Software Engineer - (Backend)",
       "timeline":"Jan 2017 - Nov 2019",
       "description":"JavaScript(ES6+) | PHP | AWS | JIRA | Linux | LAMP | GIT | BitBucket"
     }
@@ -98,7 +105,7 @@
       "degree":"Master of Science",
       "major":"Electrical & Computer Engineering",
       "timeline":"Jan 2021 - Apr 2022",
-      "result":"N/A",
+      "result":"80.5 GPA",
       "location":"Canada"
     },
     {
